@@ -1,0 +1,38 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: October 4, 1993</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: The 3DO Company</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: 32-bit RISC CPU ARM60</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 2 MB RAM, 1 MB VRAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Panasonic FZ-1</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 16-bit stereo sound</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: CD-ROM</text>
+			</text>
+   </view>
+</theme>

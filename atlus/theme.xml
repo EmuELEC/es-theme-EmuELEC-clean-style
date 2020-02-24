@@ -1,0 +1,21 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>1986</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Atlus</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: Arcade Mame </text>
+			</text>
+			
+   </view>
+</theme>

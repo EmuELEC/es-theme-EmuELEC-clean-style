@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <video name="videobox" extra="true">
+      <path>{random}</path>
+	  <default>./../art/video/default.png</default>
+      <delay>0.40</delay>
+      <color>FFFFFFFF</color>
+      <effect>none</effect>
+      <roundCorners>0.05</roundCorners>
+	  <pos>0.5 0.12</pos>
+	  <origin>0.5 0</origin>
+	  <maxSize>0.4 0.4</maxSize>
+    </video>
+	 </view>
+</theme>

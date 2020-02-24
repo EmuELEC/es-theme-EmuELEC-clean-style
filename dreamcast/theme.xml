@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: November 27, 1998</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Sega</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: Hitachi SH-4 32-bit RISC @ 200 MHz</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 16 MB, 8 MB video, 2 MB audio</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: 100 MHz PowerVR2</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: 67 MHz Yamaha AICA with 32-bit</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: GD-ROM</text>
+			</text>
+   </view>
+</theme>

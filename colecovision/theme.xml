@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: August 1982</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Coleco Industries, Inc.</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: Zilog Z80</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 16 KB</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: TMS9928A</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: Texas Instruments SN76489A</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: ROM Cartridge</text>
+			</text>
+   </view>
+</theme>

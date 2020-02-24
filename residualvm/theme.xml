@@ -1,0 +1,24 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: August 15, 2003</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: ResidualVM Team</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>Type: Interpreter</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Written in: C++ and SDL</text>
+			</text>
+   </view>
+</theme>

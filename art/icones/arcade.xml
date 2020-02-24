@@ -1,0 +1,120 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	
+	<view name="system">
+
+   	<helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/arcade/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/arcade/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/arcade/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/arcade/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/arcade/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/arcade/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/arcade/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/arcade/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/arcade/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/arcade/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+			</helpsystem>
+
+	  </view>
+	  
+   <view name="detailed">
+	   
+	<helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/arcade/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/arcade/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/arcade/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/arcade/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/arcade/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/arcade/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/arcade/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/arcade/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/arcade/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/arcade/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+			</helpsystem>
+	  
+	   </view>
+
+   <view name="basic">
+
+      <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/arcade/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/arcade/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/arcade/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/arcade/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/arcade/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/arcade/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/arcade/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/arcade/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/arcade/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/arcade/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+			</helpsystem>
+
+   	   </view>
+	   
+	   
+   <view name="video">
+
+      <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/arcade/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/arcade/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/arcade/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/arcade/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/arcade/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/arcade/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/arcade/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/arcade/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/arcade/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/arcade/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+			</helpsystem>
+	  
+   	   </view>
+
+   	<view name="grid">
+	
+		 <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/arcade/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/arcade/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/arcade/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/arcade/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/arcade/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/arcade/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/arcade/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/arcade/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/arcade/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/arcade/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+			</helpsystem>
+	  
+	   	   </view>
+		   
+		   <customView name="Carousel" inherits="grid" tinyScreen="false" displayName="${carouselViewName}">
+	
+		 <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/arcade/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/arcade/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/arcade/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/arcade/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/arcade/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/arcade/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/arcade/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/arcade/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/arcade/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/arcade/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+			</helpsystem>
+	  
+	   	    </customView>
+	
+</theme>

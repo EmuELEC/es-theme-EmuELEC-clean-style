@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: July 15, 1983</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Nintendo R&D2</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: Ricoh 2A03 8-bit processor </text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 2 KB RAM plus 2 KB video RAM</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: RP2C02 (NTSC) or RP2C07 (PAL) PPU</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: PSG 5 channel mono</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: ROM cartridge</text>
+			</text>
+   </view>
+</theme>

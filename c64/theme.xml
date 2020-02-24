@@ -1,0 +1,32 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: August 1982</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: Commodore Business Machines (CBM)</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: MOS Technology 6510/8500</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Memory: 64 KB RAM + 20 KB ROM</text>
+			</text>
+
+			<text name="graphics" extra="system">
+				<text>Graphics: VIC-II (320 × 200, 16 colors)</text>
+			</text>
+
+			<text name="sound" extra="system">
+				<text>Sound: SID 6581/8580</text>
+			</text>
+   </view>
+</theme>

@@ -1,0 +1,25 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  
+			<text name="release_date" extra="system">
+				<text>Release Date: April 28, 1980</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: Nintendo R&D1</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: Sharp SM5xx family</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Graphics: Liquid-crystal display</text>
+			</text>
+   </view>
+</theme>

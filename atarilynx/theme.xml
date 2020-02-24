@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: September 1, 1989</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Epyx, Atari Corporation</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: WDC 65SC02</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 64 KB</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: 160×102 pixels resolution</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: 4 channel sound</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: ROM cartridge</text>
+			</text>
+   </view>
+</theme>

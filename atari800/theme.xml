@@ -1,0 +1,37 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+		
+			<text name="release_date" extra="system">
+				<text>Release Date: November 1979</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Atari, Inc.</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: MOS Technology 6502B</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 128K</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: 384 pixels per TV line, 256 colors</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: 4 × oscillators with noise mixing</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: ROM cartridge</text>
+			</text>
+   </view>
+</theme>

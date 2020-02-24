@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: September 9, 1994</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: SNK Corporation</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: Motorola 68000</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 7Mb DRAM, 512K VRAM e 64K SRAM</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: 304 x 224</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: Yamaha Stereo - 13 channels</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: CD-ROM</text>
+			</text>
+   </view>
+</theme>

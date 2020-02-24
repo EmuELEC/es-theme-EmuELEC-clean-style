@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+   <formatVersion>4</formatVersion>
+   
+   
+   <feature supported="carousel">
+
+		<view name="system, basic, detailed, video, grid">
+
+			<image name="overlay_background" extra="true">
+				<path>./phosphore.png</path>
+				<size>1 1</size>
+				<pos>0 0</pos>
+				<origin>0 0</origin>
+				<tile>true</tile>
+				<zIndex>10</zIndex>
+			</image>
+	
+		</view>
+	
+	</feature>
+   
+</theme>

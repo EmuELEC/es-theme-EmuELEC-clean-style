@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: June 1977</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Apple Computer, Inc.</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: MOS Technology 6502</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 4KB ~ 64KB</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: Lo-res (16-color), Hi-res (6-color)</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: 1-bit speaker (built-in)</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: Disk II (5.25-inch, 140KB, Apple)</text>
+			</text>
+   </view>
+</theme>

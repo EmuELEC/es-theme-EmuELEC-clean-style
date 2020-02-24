@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system"> 
+    
+    <carousel name="systemcarousel">
+      <type>vertical</type>
+      <pos>0 0</pos>
+      <size>0.42 0.935</size> 
+    <pos>0.635625 0.0277777777777778</pos>			
+      <size>0.42 1.435</size>    
+      <color>00000000</color>
+      <colorEnd>00000000</colorEnd>
+      <logoScale>1.7</logoScale>
+      <logoSize>0.17 0.12</logoSize>
+      <maxLogoCount>5</maxLogoCount>
+    </carousel>
+	
+   <text name="systemInfo">
+      <pos>0.025625 0.57</pos>
+      <size>0 0.25</size>
+	  <fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+      <color>${baseColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+    </text>
+	
+    <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <pos>0.5 0</pos>
+      <size>1 0.2</size>
+      <origin>0.5 0.5</origin>
+      <path>./../centerfade.png</path>
+      <color>${centerFadeColor}</color>
+      <visible>true</visible>
+    </image>
+
+    <image name="CenterFade2" extra="true">
+      <tile>false</tile>
+      <pos>0.5 1</pos>
+      <size>1 0.25</size>
+      <origin>0.5 0.5</origin>
+      <path>./../centerfade.png</path>
+      <color>${centerFadeColor}</color>
+      <visible>true</visible>
+    </image>
+
+   <image name="darkwheel" extra="static">
+      <tile>false</tile>
+      <pos>0.84762 0.7575</pos>
+      <size>0.32 0.165</size>
+	  <color>${baseColor}</color>
+      <origin>0.5 0.5</origin>
+      <path>./../darkwheel.png</path>      
+      <zIndex>12</zIndex>
+    </image>
+
+	<image name="darkwheel2" extra="static">
+      <tile>false</tile>
+      <pos>0.1512 0.3975</pos>
+	  <roundCorners>0.05</roundCorners>
+      <size>0.29 0.50</size>
+      <origin>0.5 0.5</origin>
+      <path>./../teste.png</path>      
+      <zIndex>10</zIndex>
+    </image>
+	<text name="release_date" extra="true">
+				<fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+				<fontSize>0.0303333333333333</fontSize>
+				<pos>0.015625 0.1737037037037037</pos>
+				<size>0.2489583333333333 0.017037037037037</size>
+				<color>ffffff</color>
+				<lineSpacing>1.7</lineSpacing>
+			</text>
+
+			<text name="developer" extra="true">
+				<fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+				<fontSize>0.0303333333333333</fontSize>
+				<pos>0.015625 0.2237037037037037</pos>
+				<size>0.2489583333333333 0.037037037037037</size>
+				<alignment>left</alignment>
+				<color>${baseColor}</color>
+				<lineSpacing>1.7</lineSpacing>
+			</text>
+
+			<text name="cpu" extra="true">
+				<fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+				<fontSize>0.0303333333333333</fontSize>
+				<pos>0.015625 0.2737037037037037</pos>
+				<size>0.2489583333333333 0.037037037037037</size>
+				<alignment>left</alignment>
+				<color>ffffff</color>
+				<lineSpacing>1.7</lineSpacing>
+			</text>
+
+			<text name="memory" extra="true">
+				<fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+				<fontSize>0.0303333333333333</fontSize>
+				<pos>0.015625 0.3237037037037037</pos>
+				<size>0.2489583333333333 0.037037037037037</size>
+				<alignment>left</alignment>
+				<color>${baseColor}</color>
+				<lineSpacing>1.7</lineSpacing>
+			</text>
+
+			<text name="graphics" extra="true">
+				<fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+				<fontSize>0.0303333333333333</fontSize>
+				<pos>0.015625 0.377037037037037</pos>
+				<size>0.2489583333333333 0.037037037037037</size>
+				<alignment>left</alignment>
+				<color>ffffff</color>
+				<lineSpacing>1.7</lineSpacing>
+			</text>
+
+			<text name="sound" extra="true">
+				<fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+				<fontSize>0.0303333333333333</fontSize>
+				<pos>0.015625 0.427037037037037</pos>
+				<size>0.2489583333333333 0.037037037037037</size>
+				<alignment>left</alignment>
+				<color>${baseColor}</color>
+				<lineSpacing>1.7</lineSpacing>
+			</text>
+
+			<text name="media" extra="true">
+				<fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+				<fontSize>0.0303333333333333</fontSize>
+				<pos>0.015625 0.4737037037037037</pos>
+				<size>0.2489583333333333 0.037037037037037</size>
+				<alignment>left</alignment>
+				<color>ffffff</color>
+				<lineSpacing>1.7</lineSpacing>
+			</text>
+  </view>
+  <view name="system,basic,detailed">
+  <helpsystem name="help">
+          <fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+         <fontSize>0.036421</fontSize>      
+         <pos>0.304321 0.948</pos>      
+         <textColor>${baseColor}</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	   </view>
+	    <view name="video, basic, grid, detailed">
+  <helpsystem name="help">
+          <fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+         <fontSize>0.03</fontSize>     
+         <pos>0.01 0.968</pos>      
+         <textColor>${baseColor}</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	   </view>
+</theme>

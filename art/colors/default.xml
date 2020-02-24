@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables>
+    <baseColor>ffffff</baseColor>
+    <gradientEndColor>000000</gradientEndColor>
+    <centerFadeColor>000000</centerFadeColor>    
+    <backgroundColor>ffffff</backgroundColor>
+    <bottomBarColor>F0FFF0</bottomBarColor>
+    <glowColor>000000</glowColor>
+    <systemInfoColor>ffffff</systemInfoColor>
+  </variables>
+</theme>

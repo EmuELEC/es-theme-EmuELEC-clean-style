@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Clean style
+version:        1.0
+author:         Adriano de Souza (drixplm1)
+license:        creative commons CC-BY-NC-SA
+credit:         controller artwork originally from Carbon theme, Mascote e Alguns controles créditos ao Criador do tema Chicuelo, cédito aos criadores de imagens e logotipos que podem ser encontrados aqui, estes foram encontrados 
+em sites de internet e alguns sem informações então se alguem se sentir lesado informar que retiro do tema, lembrando que não tem fim comercial. Distribuido gratuitamente. a idéia deste tema teve como base o tema TF, para retropie
+compratilhado por Anthony, a quem deixo céditos ao excelente trabalho,tema tem muitas ideias do tema Carbon a quem agradeço também por excelente trabalho, espero de verdade que ninguem se sinta ofendido por isso.
+-->
+
+ <theme defaultView="Tiles">
+ 
+   <formatVersion>7</formatVersion>
+   
+   <!--<include>./art/menu/menu.xml</include>-->
+<include subset="color" name="blue">./art/colors/blue.xml</include>
+<include subset="color" name="green">./art/colors/green.xml</include>
+<include subset="color" name="cyan">./art/colors/cyan.xml</include>
+<include subset="color" name="violet">./art/colors/violet.xml</include>
+<include subset="color" name="yellow">./art/colors/yellow.xml</include>
+<include subset="color" name="default">./art/colors/default.xml</include>
+<include subset="color" name="orange">./art/colors/orange.xml</include>
+
+<include subset="systemsbk" name="horizontal">./art/systemsbk/horizontal.xml</include>
+ <include subset="systemsbk" name="transparent">./art/systemsbk/transparent.xml</include>
+ <include subset="systemsbk" name="verticalleftup">./art/systemsbk/verticalleftup.xml</include>
+ <include subset="systemsbk" name="verticalrightup">./art/systemsbk/verticalrightup.xml</include>
+ <include subset="systemsbk" name="verticalrightdown">./art/systemsbk/verticalrightdown.xml</include>
+ <include subset="systemsbk" name="verticalleftdown">./art/systemsbk/verticalleftdown.xml</include>
+ <include subset="systemsbk" name="verticaloneright">./art/systemsbk/verticaloneright.xml</include>
+ <include subset="systemsbk" name="verticaloneleft">./art/systemsbk/verticaloneleft.xml</include>
+ <include subset="systemsbk" name="wheelright">./art/systemsbk/wheelright.xml</include>
+ <include subset="systemsbk" name="wheelleft">./art/systemsbk/wheelleft.xml</include>
+ <include subset="systemsbk" name="horizontal image random">./art/systemsbk/horizontalimagerandom.xml</include>
+ <include subset="systemsbk" name="horizontal video random">./art/systemsbk/horizontalvideorandom.xml</include>
+ 
+<include subset="systemview" name="consoles">./art/systemview/consoles.xml</include>
+<include subset="systemview" name="vectors">./art/systemview/controles.xml</include>
+<include subset="systemview" name="gamepad">./art/systemview/jostick.xml</include>
+<include subset="systemview" name="mascots">./art/systemview/mascote.xml</include>
+<include subset="systemview" name="video">./art/systemview/smallvideo.xml</include>
+
+
+<include>./core/icons/menuicons.xml</include>
+
+<include subset="background" name="dark">./fundo/fosco1.xml</include>
+<include subset="background" name="dark2">./fundo/fosco.xml</include>
+<include subset="background" name="default">./fundo/default.xml</include>
+<include subset="background" name="carbon">./fundo/carbon.xml</include>
+<include subset="background" name="tff">./fundo/tff.xml</include>
+<include subset="background" name="dark3">./fundo/fosco2.xml</include>
+<include subset="background" name="blue">./fundo/blue.xml</include>
+<include subset="background" name="animated">./fundo/animated.xml</include>
+
+ <subset name="shader" displayName="${subset.shader}">
+    <include name="None" displayName="${none}"/>
+    <include name="ScanLines">./art/scanlines.xml</include>
+    <include name="Crt">./art/crt.xml</include>
+	<include name="scanlines fine">./art/scanlines_fine.xml</include>
+	<include name="scanlines vertical fine">./art/scanlines_vertical_fine.xml</include>
+	<include name="phosphore">./art/phosphore.xml</include>
+  </subset>
+  
+  
+  
+  <subset name="icons" displayName="${subset.icons}">
+    <include name="snes">./art/icones/snes.xml</include>
+    <include name="arcade">./art/icones/arcade.xml</include>
+	 <include name="psx">./art/icones/psx.xml</include>
+	   <include name="snesalt">./art/icones/snesalt.xml</include>
+	    <include name="xbox">./art/icones/xbox.xml</include>
+		 <include name="xboxone">./art/icones/xboxone.xml</include>
+		 <include name="None" displayName="${none}"/>
+    
+  </subset>
+
+
+<variables>
+    <baseColor>8b0000</baseColor>
+    <gradientEndColor>6b2020</gradientEndColor>
+    <centerFadeColor>8b000050</centerFadeColor>
+    <backgroundColor>252525</backgroundColor>
+    <bottomBarColor>8b0000c0</bottomBarColor>
+    <glowColor>Ab000020</glowColor>
+    <systemInfoColor>DDDDDDD8</systemInfoColor>
+    <backgroundImage>./core/images/background.png</backgroundImage>
+    <tilesViewName>Tiles</tilesViewName>
+    <roundBorderSubsetName>Round borders</roundBorderSubsetName>
+    <blinkBorderSubsetName>Blinking borders</blinkBorderSubsetName>
+    <previewBarSubsetName>Preview bar</previewBarSubsetName>
+    <videoboxesSubsetName>Show Video in boxes</videoboxesSubsetName>
+    <zoomboxesSubsetName>Zoom boxes</zoomboxesSubsetName>
+    <hideselectionSubsetName>Hide selection</hideselectionSubsetName>
+    <systemBackgroundName>System background</systemBackgroundName>
+    <helpSubsetName>Help icons</helpSubsetName>
+    <systemViewName>System view</systemViewName>
+    <colored>Colored</colored>
+    <subset.colorset>Colorset</subset.colorset>
+    <subset.shader>Shader</subset.shader>
+  </variables>
+  <!-- French -->
+  <variables lang="fr">
+    <tilesViewName>Vignettes</tilesViewName>
+    <basicGridName>Boites</basicGridName>
+    <carouselViewName>Carrousel</carouselViewName>
+    <blue>Bleu</blue>
+    <red>Rouge</red>
+    <green>Vert</green>
+    <yellow>Jaune</yellow>
+    <none>Aucun</none>
+    <roundBorderSubsetName>Bords arrondis</roundBorderSubsetName>
+    <blinkBorderSubsetName>Bords clignotants</blinkBorderSubsetName>
+    <yes>Oui</yes>
+    <no>Non</no>
+    <systemBackgroundName>Arrière-plan</systemBackgroundName>
+    <systemViewName>Vue Système</systemViewName>
+    <previewBarSubsetName>Volet aperçu</previewBarSubsetName>
+    <videoboxesSubsetName>Afficher la video en mode boite</videoboxesSubsetName>
+    <zoomboxesSubsetName>Zoomer les boites</zoomboxesSubsetName>
+    <hideselectionSubsetName>Masquer la sélection</hideselectionSubsetName>
+    <helpSubsetName>Icônes d'aide</helpSubsetName>
+    <colored>Colorés</colored>
+    <subset.colorset>Jeux de couleurs</subset.colorset>
+    <subset.shader>Effets TV</subset.shader>
+  </variables>
+
+<view name="menu">
+        <menuText name="menutitle">
+            <fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
+            <fontSize>0.044</fontSize>
+            <color>969696</color>
+        </menuText>
+
+         <menuText name="menufooter">
+            <fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
+            <fontSize>0.02</fontSize>
+            <color>${baseColor}</color>
+        </menuText>
+
+       <menuText name="menutext">
+            <fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
+            <fontSize>0.035</fontSize>
+            <color>969696</color>
+            <separatorColor>000000</separatorColor>
+            <selectorColor>${baseColor}</selectorColor>
+            <selectorColorEnd>${baseColor}</selectorColorEnd>
+            <selectedColor>000000</selectedColor>
+			<selectorGradientType>horizontal</selectorGradientType>
+        </menuText>
+
+         <menuTextSmall name="menutextsmall">
+            <fontPath>./core/fonts/BebasKai-Regular.otf</fontPath>
+            <fontSize>0.02</fontSize>
+            <color>${baseColor}</color>
+        </menuTextSmall>
+
+       <menuBackground name="menubg">
+      <color>242424</color>
+      <color>242424</color>
+        </menuBackground>		 
+    </view>
+
+    <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos></pos>      
+      </helpsystem>
+	  
+	  <video name="videobox" extra="true">
+	  <path>{random}</path>
+      <pos>0.5 0.12</pos>
+	  <origin>0.5 0</origin>
+	  <maxSize>0.4 0.4</maxSize>
+      <zIndex>12</zIndex>
+    </video>
+	
+        <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>
+        
+         <zIndex>1</zIndex>
+      </image>
+	  
+   </view>
+    <view name="system">
+      <image name="controller" extra="true">
+        <origin>0.5 0</origin>
+        <pos>0.5 0.12</pos>
+		<color>${baseColor}</color>
+        <maxSize>0.3 0.4</maxSize>
+         <zIndex>4</zIndex>
+      </image>	
+	  
+	   </view>
+	   
+   <view name="basic, video, detailed">
+      <image name="logo">
+         <origin>.5 0</origin>
+         <pos>0.5 0.075</pos>
+         <maxSize>0.8625 0.095</maxSize>
+		 <!-- try png -->
+      <path>./art/logos/${system.theme}.svg</path>
+      <!-- try svg -->
+      <path>./art/logos/${system.theme}.png</path>
+      <!-- check if lang resources exist -->
+      
+      <!-- 
+      <path>/userdata/themes/${system.theme}/art/${system}.png</path>
+      <path>/userdata/themes/${system.theme}/art/${system}.svg</path>
+      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.png</path>
+      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.svg</path>
+      -->
+      </image>	  	  
+	  
+      <textlist name="gamelist">
+         <pos>0.05 0.225</pos>
+         <size>0.9 0.725</size>
+		 <fontSize>0.035</fontSize>
+         <selectorColor>000000ff</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>${baseColor}</primaryColor>
+         <secondaryColor>eaeaea</secondaryColor>
+         <fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+         <scrollSound>./core/sounds/select.wav</scrollSound>
+         <forceUppercase>1</forceUppercase>
+         <alignment>center</alignment>
+      </textlist>  
+   </view>
+   <view name="detailed,video">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+         <pos>1 1</pos>
+      </text>
+	   <text name="md_players, md_lbl_players">
+            <forceUppercase>1</forceUppercase>
+            <fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+            <fontSize>0.025</fontSize>
+            <color>ffff00</color>
+            <origin>0 0.5</origin> 
+        </text>
+		<text name="md_lbl_players, md_lbl_players"><pos>0.68 0.59</pos></text>
+        <text name="md_players"><pos>0.77 0.59</pos></text>
+	  
+	  <text name="md_description">
+			<fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.0277777777777778</fontSize>
+			<pos>0.665625 0.6388888888888889</pos>
+			<size>0.31875 0.2962962962962963</size>
+			<alignment>right</alignment>
+			<color>${baseColor}</color>
+			<lineSpacing>1.17</lineSpacing>
+		</text>
+		
+      <datetime name="md_releasedate,md_lastplayed">
+         <pos>1 1</pos>
+      </datetime>
+	  
+      <rating name="md_rating">
+			<pos>0.665625 0.5088888888888889</pos>
+			<size>0 0.05</size>
+			<filledPath>./art/images/filled.png</filledPath>
+			<unfilledPath>./art/images/unfilled.png</unfilledPath>
+		</rating>
+		
+		
+      <image name="logo">
+         <origin>0 0</origin>
+         <pos>0.04375 0.075</pos>
+         <zIndex>40</zIndex>
+      </image>
+	  
+      <image name="md_image">
+         <pos>0.8312916666666667 0.2288888888888889</pos>
+		<maxSize>0.3333333333333333 0.444444444444444</maxSize>
+         <zIndex>10</zIndex>
+      </image>	          
+	  
+      <image name="media_background" extra="true">
+         <origin>0 0</origin>
+         <pos>0.6625 0</pos>
+         <size>0.3375 1</size>
+         <path>./core/images/border.png</path>
+         <color>242424</color>
+         <zIndex>5</zIndex>
+      </image>
+	 	  
+	  
+      <image name="border" extra="true">
+         <origin>0 0</origin>
+         <pos>0.65625 0</pos>
+         <size>0.00625 1</size>
+         <path>./core/images/border.png</path>
+		 <color>${baseColor}</color>
+         <zIndex>30</zIndex>
+      </image>
+	   
+	  
+      <image name="gamelist_background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>0.65625 1</size>
+         <tile>true</tile>
+         <path>./core/images/background.png</path>
+         <zIndex>30</zIndex>
+      </image>
+	  
+      <textlist name="gamelist">
+         <pos>0 0.225</pos>
+         <size>0.65625 0.725</size>
+         <alignment>left</alignment>
+         <horizontalMargin>0.038</horizontalMargin>
+         <zIndex>40</zIndex>
+      </textlist>
+	 
+   </view>
+   <view name="video, detailed">
+      <image name="md_marquee">
+	<origin>0.5 0.5</origin>
+	<pos>0.90625 0.5288888888888889</pos>
+	<maxSize>0.1689583333333333 0.1011111111111111</maxSize>
+	</image>
+	
+      <image name="md_image">
+          <pos>1 1</pos>
+          <origin>0 0</origin>
+      </image>
+	  
+      <video name="md_video, detailed">
+         <pos>0.8312916666666667 0.2288888888888889</pos>
+				<maxSize>0.3333333333333333 0.444444444444444</maxSize>
+         <delay>0.2</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <zIndex>10</zIndex>
+      </video>
+	   </view>
+	   
+	        <view name="grid">
+			
+	        <text name="md_genre">
+			<size>0.9 0.725</size>
+			<color>${baseColor}</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.870</pos>
+			 <fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.0583333333333333</fontSize>
+			<zIndex>91</zIndex>  
+		</text>
+		
+	<text name="md_description">
+	  	<color>ffffff</color>
+		<fontSize>0.024</fontSize>
+		<fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+		<size>0.27 0.30</size>
+		<pos>0.0133335 0.460</pos>
+    </text>
+	
+	<rating name="md_rating">
+			<pos>0.011111 0.280</pos>
+			<size>0 0.07</size>
+			<filledPath>./art/images/filled.png</filledPath>
+			<unfilledPath>./art/images/unfilled.png</unfilledPath>
+		</rating>
+		 <text name="md_players, md_lbl_players">
+            <forceUppercase>1</forceUppercase>
+            <fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+            <fontSize>0.025</fontSize>
+            <color>ffff00</color>
+            <origin>0 0.5</origin> 
+        </text>
+		<text name="md_lbl_players, md_lbl_players"><pos>0.011111 0.260</pos></text>
+        <text name="md_players"><pos>0.101111 0.260</pos></text>
+		
+	<text name="md_name">
+			<fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+            <fontSize>0.0383333333333333</fontSize>
+			<pos>0.01111 0.02755</pos>
+			<size>0.6875 0.0248148148148148</size>
+			<alignment>left</alignment>
+			<color>ffff00</color>
+		</text>
+	
+	 <helpsystem name="help">
+        <pos> </pos>
+      </helpsystem>
+	  
+      <image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.0951265 0.17</pos>
+			<maxSize>0.18 0.13</maxSize>
+			 <!-- try png -->
+      <path>./art/logos/${system.theme}.png</path>
+      <!-- try svg -->
+      <path>./art/logos/${system.theme}.svg</path>
+      <!-- check if lang resources exist -->
+      <path>./art/logos/${system.theme}-${lang}.png</path>
+      <path>./art/logos/${system.theme}-${lang}.svg</path>
+      <!-- 
+      <path>/userdata/themes/${system.theme}/art/${system}.png</path>
+      <path>/userdata/themes/${system.theme}/art/${system}.svg</path>
+      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.png</path>
+      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.svg</path>
+      -->
+		</image>
+	
+		<gridtile name="default">
+			<size>0.22875 0.33</size>
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+	
+	 <image name="background" extra="true">
+          <path>./core/images/background.png</path>
+        <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>	
+         <origin>0 0</origin>		 
+      </image>
+	  
+         <imagegrid name="gamegrid">
+			<pos>0.29 0.06</pos>
+			<size>0.75 0.78</size>
+			<showVideoAtDelay>800</showVideoAtDelay>
+			<margin>0 0</margin>
+		</imagegrid>
+					
+	
+	<gridtile name="selected">
+			<size>0.20075 0.30</size>
+			<backgroundColor>${baseColor}</backgroundColor>
+		</gridtile>
+		 <image name="md_marquee">
+	<origin>0.5 0.5</origin>
+	<pos>0.101111 0.399</pos>
+	<maxSize>0.1689583333333333 0.1011111111111111</maxSize>
+	</image>
+		
+   </view>
+   <customView name="Carousel" inherits="grid" tinyScreen="false" displayName="${carouselViewName}">
+   <image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.1051265 0.63</pos>
+			<maxSize>0.18 0.13</maxSize>
+			 <!-- try png -->
+      <path>./art/logos/${system.theme}.png</path>
+      <!-- try svg -->
+      <path>./art/logos/${system.theme}.svg</path>
+      <!-- check if lang resources exist -->
+      <path>./art/logos/${system.theme}-${lang}.png</path>
+      <path>./art/logos/${system.theme}-${lang}.svg</path>
+      <!-- 
+      <path>/userdata/themes/${system.theme}/art/${system}.png</path>
+      <path>/userdata/themes/${system.theme}/art/${system}.svg</path>
+      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.png</path>
+      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.svg</path>
+      -->
+		</image>
+    <text name="md_name">
+      <color>${baseColor}</color>
+      <pos>0.04 0.40</pos>
+      <size>0.92 0.20</size>
+      <alignment>center</alignment>
+      <glowColor>00000016</glowColor>
+      <glowSize>4</glowSize>
+    </text>
+    <text name="md_developer">
+      <color>808080ff</color>
+      <pos>0.04 0.49</pos>
+      <size>0.92 0.10</size>
+      <alignment>center</alignment>
+      <fontSize>0.020</fontSize>
+      <glowColor>00000016</glowColor>
+      <glowSize>3</glowSize>
+    </text>
+    <imagegrid name="gamegrid">
+      <pos>0.0 0.0091265</pos>
+      <size>1 0.680</size>
+      <padding>0.09 0.14 0.05 0.30</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>5 1</autoLayout>
+      <autoLayoutSelectedZoom>1.70</autoLayoutSelectedZoom>
+      <margin>0.005 0.010</margin>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+    </imagegrid>
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>FFFFFFAA</imageColor>
+      <reflexion>0.150 0.0</reflexion>
+    </gridtile>
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>64 16</padding>
+    </gridtile>
+	 <image name="background" extra="true">
+          <path>./core/images/1.png</path>
+        <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>	
+         <origin>0 0</origin>		 
+      </image>
+    <text name="gridtile">
+      <visible>false</visible>
+      <color>80808080</color>
+      <fontSize>0.016</fontSize>
+      <size>1 0</size>
+    </text>
+    <text name="gridtile:selected">
+      <color>FFFFFF00</color>
+      <fontSize>0.035</fontSize>
+      <size>1 0</size>
+    </text>
+    <ninepatch name="gridtile.background:selected">
+      <animateColorTime>0</animateColorTime>
+    </ninepatch>    
+	<text name="md_description">
+	  	<color>ffffff</color>
+		<fontSize>0.024</fontSize>
+		<fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+		 <pos>0.302 0.59</pos>
+		<size>0.47 0.30</size>	
+    </text>
+	 <image name="md_marquee">
+	<origin>0.5 0.5</origin>
+	<pos>0.891111 0.63</pos>
+	<maxSize>0.1689583333333333 0.1011111111111111</maxSize>
+	</image>
+	 <helpsystem name="help">
+          <fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+         <fontSize>0.03</fontSize>     
+         <pos>0.224321 0.958</pos>      
+         <textColor>${baseColor}</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	  <rating name="md_rating">
+			<pos>0.821111 0.73</pos>
+			<size>0 0.05</size>
+			<filledPath>./art/images/filled.png</filledPath>
+			<unfilledPath>./art/images/unfilled.png</unfilledPath>
+		</rating>
+		 <text name="md_genre">
+			<size>0.9 0.725</size>
+			<color>${baseColor}</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.4751265 0.91</pos>
+			 <fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.0283333333333333</fontSize>
+			<zIndex>91</zIndex>  
+		</text>
+		<text name="md_players, md_lbl_players">
+            <forceUppercase>1</forceUppercase>
+            <fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+            <fontSize>0.035</fontSize>
+            <color>ffff00</color>
+            <origin>0 0.5</origin> 
+        </text>
+		<text name="md_lbl_players, md_lbl_players"><pos>0.0251265 0.81</pos></text>
+        <text name="md_players"><pos>0.1551265 0.81</pos></text>
+	 
+  </customView>
+  
+  <customView name="Marquee detail" inherits="grid" displayName="${marqueeDetailViewName}">
+		
+		<!-- Image de Background VIDE -->
+		<image name="bg-game" extra="true">
+			 <path>./core/images/2.png</path>
+		</image>
+		
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.6051265 0.85</pos>
+			<maxSize>0.18 0.13</maxSize>
+			 <!-- try png -->
+      <path>./art/logos/${system.theme}.png</path>
+      <!-- try svg -->
+      <path>./art/logos/${system.theme}.svg</path>
+      <!-- check if lang resources exist -->
+      <path>./art/logos/${system.theme}-${lang}.png</path>
+      <path>./art/logos/${system.theme}-${lang}.svg</path>
+      <!-- 
+      <path>/userdata/themes/${system.theme}/art/${system}.png</path>
+      <path>/userdata/themes/${system.theme}/art/${system}.svg</path>
+      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.png</path>
+      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.svg</path>
+      -->
+		</image>
+		
+		<text name="md_name">
+      <color>${baseColor}</color>
+      <pos>0.25 0.01</pos>
+      <size>0.92 0.20</size>
+      <alignment>center</alignment>
+      <glowColor>00000016</glowColor>
+      <glowSize>4</glowSize>
+    </text>
+		
+		<!-- Marquee / Player / Rating -->
+		<rating name="md_rating">
+			<pos>0.801111 0.77</pos>
+			<size>0 0.05</size>
+			<filledPath>./art/images/filled.png</filledPath>
+			<unfilledPath>./art/images/unfilled.png</unfilledPath>
+		</rating>
+		
+		
+		<image name="md_marquee">
+			<visible>false</visible>
+		</image>
+		
+		
+		<text name="md_players, md_lbl_players">
+            <forceUppercase>1</forceUppercase>
+            <fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+            <fontSize>0.030</fontSize>
+            <color>ffff00</color>
+            <origin>0 0.5</origin> 
+        </text>
+		
+		<text name="md_lbl_players, md_lbl_players"><pos>0.2751265 0.85</pos></text>
+        <text name="md_players"><pos>0.3751265 0.85</pos></text>
+		 <text name="md_genre">
+			<size>0.9 0.725</size>
+			<color>${baseColor}</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.9951265 0.73</pos>
+			 <fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.0383333333333333</fontSize>
+			<zIndex>91</zIndex>  
+		</text>
+	 
+		<text name="md_description">
+	  	<color>ffffff</color>
+		<fontSize>0.024</fontSize>
+		<fontPath>./core/fonts/Cabin-Bold.ttf</fontPath>
+		 <pos>0.272 0.40</pos>
+		<size>0.20 0.40</size>	
+    </text>
+		
+		 <image name="md_image">
+         <pos>0.7212916666666667 0.4088888888888889</pos>
+		<maxSize>0.4833333333333333 0.484444444444444</maxSize>
+		 <roundCorners>0.09</roundCorners>
+         <zIndex>10</zIndex>
+      </image>
+	  
+	  <video name="md_video">
+         <pos>0.3812916666666667 0.2288888888888889</pos>
+		<maxSize>0.2333333333333333 0.244444444444444</maxSize>
+		<roundCorners>0.09</roundCorners>
+         <delay>0.3</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <zIndex>10</zIndex>
+      </video>
+	  
+		<!-- Grille de tuiles -->
+		<imagegrid name="gamegrid">
+			<pos>0.001 0.07</pos>
+			<size>0.200 0.83</size>
+			<padding>0.04 0.03 0.04 0.03</padding>
+			<margin>0.10 0.010</margin>
+			<autoLayout>1 10</autoLayout>
+			<autoLayoutSelectedZoom>1.30</autoLayoutSelectedZoom>
+			<showVideoAtDelay>-1</showVideoAtDelay>
+			<imageSource>marquee</imageSource> <!-- image / marquee -->
+			<animateSelection>true</animateSelection> <!-- Anime le deplacement du fond -->
+		</imagegrid>
+		
+	<!-- Tuile -->
+		<gridtile name="default">
+			<!-- Fond -->
+			<backgroundColor>00000000</backgroundColor>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<!-- Image -->
+			<selectionMode>image</selectionMode> <!-- full -->
+			<imageColor>ffffff</imageColor>
+			<padding>4 4</padding>
+			<imageSizeMode>maxSize</imageSizeMode> <!-- maxSize  / size -->
+		</gridtile>
+		
+		<gridtile name="selected">
+			<backgroundCenterColor>ffffff</backgroundCenterColor>
+			<backgroundEdgeColor>${baseColor}</backgroundEdgeColor>
+			 <roundCorners>0.09</roundCorners>
+			<imageColor>FFFFFFFF</imageColor>
+			<padding>20 10</padding>
+		</gridtile>
+	
+		<!-- Animation du tour de la selection -->
+		<ninepatch name="gridtile.background:selected">
+		<animateColor>00000000</animateColor>
+		<animateColorTime>0</animateColorTime>
+		</ninepatch>
+		
+		<helpsystem name="help">
+          <fontPath>./../core/fonts/BebasKai-Regular.otf</fontPath>
+         <fontSize>0.03</fontSize>     
+         <pos>0.28321 0.958</pos>      
+         <textColor>${baseColor}</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+	</customView>
+   
+</theme>

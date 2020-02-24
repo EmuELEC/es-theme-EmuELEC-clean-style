@@ -1,0 +1,123 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	
+	<view name="system">
+
+   	<helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/psx/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/psx/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/psx/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/psx/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/psx/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/psx/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/psx/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/psx/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/psx/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/psx/start.png</iconStart>
+		   <iconSelect>./../_assets/_helpsystem_icons/psx/select.png</iconSelect>
+		   
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+	  </view>
+	  
+   <view name="detailed">
+	   
+	<helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/psx/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/psx/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/psx/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/psx/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/psx/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/psx/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/psx/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/psx/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/psx/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/psx/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/psx/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+	  
+	   </view>
+
+   <view name="basic">
+
+      <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/psx/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/psx/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/psx/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/psx/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/psx/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/psx/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/psx/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/psx/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/psx/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/psx/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/psx/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+
+   	   </view>
+	   
+	   
+   <view name="video">
+
+      <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/psx/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/psx/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/psx/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/psx/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/psx/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/psx/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/psx/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/psx/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/psx/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/psx/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/psx/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+	  
+   	   </view>
+
+   	<view name="grid">
+	
+		 <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/psx/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/psx/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/psx/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/psx/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/psx/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/psx/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/psx/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/psx/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/psx/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/psx/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/psx/select.png</iconSelect> 
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+	  
+	   	   </view>
+		   <customView name="Carousel" inherits="grid" tinyScreen="false" displayName="${carouselViewName}"> 
+		 <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/psx/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/psx/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/psx/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/psx/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/psx/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/psx/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/psx/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/psx/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/psx/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/psx/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/psx/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+			</helpsystem>
+	  
+	   	    </customView>
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: November 16, 2001</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: Nintendo</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: S1C88 @ 4 MHz</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Memory: 4 KB RAM</text>
+			</text>
+
+			<text name="graphics" extra="system">
+				<text>Graphics: Monochrome LCD, 96 × 64</text>
+			</text>
+
+			<text name="sound" extra="system">
+				<text>Media: ROM cartridge</text>
+			</text>
+   </view>
+</theme>

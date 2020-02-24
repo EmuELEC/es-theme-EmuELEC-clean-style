@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: November 1982</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: General Consumer Electronics</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: Motorola MC68A09 @ 1.5 MHz</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Memory: 1 KB</text>
+			</text>
+
+			<text name="graphics" extra="system">
+				<text>Graphics: MOS 6522 (VIA)</text>
+			</text>
+
+			<text name="sound" extra="system">
+				<text>Sound: AY-3-8912</text>
+			</text>
+
+			<text name="media" extra="system">
+				<text>Media: ROM cartridge</text>
+			</text>
+   </view>
+</theme>

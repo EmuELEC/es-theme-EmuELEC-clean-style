@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: December 23, 1994</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: NEC Home Electronics</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: NEC V810</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Memory: 2 MB</text>
+			</text>
+
+			<text name="graphics" extra="system">
+				<text>Graphics: 341x480i</text>
+			</text>
+
+			<text name="sound" extra="system">
+				<text>Sound: 16-Bit Stereo CD-DA</text>
+			</text>
+
+			<text name="media" extra="system">
+				<text>Media: CD-ROM</text>
+			</text>
+   </view>
+</theme>

@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: Varies</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Varies</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: Varies</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: Varies</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: Varies</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: Varies</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: Mame Arcades</text>
+			</text>
+   </view>
+</theme>

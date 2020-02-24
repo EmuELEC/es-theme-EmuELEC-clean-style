@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <image name="ControllerOverlay" extra="true">
+      <path>./../mascote/default.png</path>
+      <path>./../mascote/${system.theme}.png</path>
+	  <reflexion>0.20 0.0</reflexion>
+      <reflexionOnFrame>true</reflexionOnFrame>
+	  <roundCorners>0.05</roundCorners>
+      <visible>true</visible>
+      <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0</origin>
+        <pos>0.5 0.12</pos>
+		<color>${baseColor}</color>
+        <maxSize>0.4 0.4</maxSize>
+         <zIndex>2</zIndex>
+      <color>FFFFFFF0</color>
+    </image>
+  </view>
+</theme>

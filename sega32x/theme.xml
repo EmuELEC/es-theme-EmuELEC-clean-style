@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: June 1, 1994</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Sega</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: Two Hitachi SH2 32-bit RISC</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 256 KB RAM</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: Sega 32X VDP</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: QSound PWM</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: Cartridge</text>
+			</text>
+   </view>
+</theme>

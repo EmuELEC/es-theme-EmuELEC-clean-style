@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <image name="ControllerOverlay" extra="true">
+      <path>./../consoles/default.png</path>
+      <path>./../consoles/${system.theme}.png</path>
+	  <reflexion>0.20 0.0</reflexion>
+      <reflexionOnFrame>true</reflexionOnFrame>
+      <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0</origin>
+        <pos>0.5 0.12</pos>
+		<color>${baseColor}</color>
+        <maxSize>0.4 0.4</maxSize>
+         <zIndex>2</zIndex>
+      <color>FFFFFFF0</color>
+    </image>
+  </view>
+</theme>

@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: 2003</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Sammy Corporation</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: Hitachi SH-4 32-bit RISC CPU 200 MHz</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 16 MB</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: PowerVR 2 100 MHz</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: ARM7 Yamaha AICA</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: ROM board</text>
+			</text>
+   </view>
+</theme>

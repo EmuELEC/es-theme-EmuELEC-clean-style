@@ -1,0 +1,20 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: April 23, 1995</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: Nintendo R&D2</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>Media: ROM cartridge, Flash memory</text>
+			</text>
+   </view>
+</theme>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+		<view name="system">
+		
+		<image name="background" extra="true">
+			 <color>242424</color>
+		</image>
+		
+	</view>
+	
+</theme>		

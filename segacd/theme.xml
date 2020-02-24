@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: December 12, 1991</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: Sega</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: Motorola 68000 @ 12.5 MHz</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Memory: 6 Mbits</text>
+			</text>
+
+			<text name="graphics" extra="system">
+				<text>Graphics: Sega custom</text>
+			</text>
+
+			<text name="sound" extra="system">
+				<text>Sound: Ricoh RF5C164</text>
+			</text>
+
+			<text name="media" extra="system">
+				<text>Media: CD-ROM, CD+G</text>
+			</text>
+   </view>
+</theme>

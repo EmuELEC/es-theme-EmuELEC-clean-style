@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: September 14, 2001</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Nintendo</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: IBM PowerPC Gekko @ 486 MHz</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 24 MB</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: ATI Flipper @ 162 MHz</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: Analog stereo (Dolby Pro Logic II)</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: GameCube Game Disc</text>
+			</text>
+   </view>
+</theme>

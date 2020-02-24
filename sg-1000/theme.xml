@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: July 15, 1983</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: Sega</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: Zilog Z80 @ 3.58 MHz</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Memory: 1 KB RAM</text>
+			</text>
+
+			<text name="graphics" extra="system">
+				<text>Graphics: Texas Instruments TMS9928A</text>
+			</text>
+
+			<text name="sound" extra="system">
+				<text>Sound: Texas Instruments SN76489</text>
+			</text>
+
+			<text name="media" extra="system">
+				<text>Media: ROM cartridge, cassette tape</text>
+			</text>
+   </view>
+</theme>

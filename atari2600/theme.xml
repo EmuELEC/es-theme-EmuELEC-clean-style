@@ -1,0 +1,39 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+    <include>./art/systebk/smallvideo.xml</include>
+ <view name="system">
+   <image name="logo">
+         <path>./_inc/system.svg</path>
+		 
+      </image>
+   
+			<text name="release_date" extra="system">
+				<text>Release Date: September 11, 1977</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Atari</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: MOS Technology 6507</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 128 bytes</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: TIA</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: 2 channel handled by the TIA</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: Cartridge</text>
+			</text>
+   </view>
+</theme>

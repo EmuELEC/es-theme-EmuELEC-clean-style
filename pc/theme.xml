@@ -1,0 +1,24 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: August 12, 1981</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Microsoft</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>Written in: x86 assembly and also used C</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Platforms: x86</text>
+			</text>
+   </view>
+</theme>

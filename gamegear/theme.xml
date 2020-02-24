@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: October 6, 1990</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: Sega</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: Zilog Z80</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text>Memory: 8 KB RAM, 16 KB video RAM</text>
+			</text>
+
+			<text name="graphics" extra="system">
+				<text>Graphics: Custom VDP</text>
+			</text>
+
+			<text name="sound" extra="system">
+				<text>Sound: TI SN76489</text>
+			</text>
+
+			<text name="media" extra="system">
+				<text>Media: Cartridge</text>
+			</text>
+   </view>
+</theme>

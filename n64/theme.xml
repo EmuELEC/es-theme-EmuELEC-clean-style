@@ -1,0 +1,37 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+		
+			<text name="release_date" extra="system">
+				<text>Release Date: June 23, 1996</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Nintendo IRD</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text>CPU: 64-bit NEC VR4300</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text>Memory: 4 MB RDRAM expandable to 8 MB</text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text>Graphics: 64-bit SGI RCP</text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Sound: 64-bit SGI RCP</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text>Media: Cartridge</text>
+			</text>
+   </view>
+</theme>

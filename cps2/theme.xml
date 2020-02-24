@@ -1,0 +1,36 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+ <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: may 30, 1993</text>
+			</text>
+			
+			<text name="developer" extra="system">
+				<text>Developer: Capcom</text>
+			</text>
+			
+			<text name="cpu" extra="system">
+				<text> Motorola 68000 a 11.8 MHz</text>
+			</text>
+			
+			<text name="memory" extra="system">
+				<text></text>
+			</text>
+			
+			<text name="graphics" extra="system">
+				<text></text>
+			</text>
+			
+			<text name="sound" extra="system">
+				<text>Q-Sound a 4 MHz</text>
+			</text>
+			
+			<text name="media" extra="system">
+				<text></text>
+			</text>
+   </view>
+</theme>

@@ -1,0 +1,107 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	
+	<view name="system">
+
+   	<helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/xboxone/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/xboxone/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/xboxone/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/xboxone/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/xboxone/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/xboxone/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/xboxone/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/xboxone/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/xboxone/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/xboxone/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/xboxone/select.png</iconSelect>	</helpsystem>
+	  </view>
+	  
+   <view name="detailed">
+	   
+	<helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/xboxone/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/xboxone/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/xboxone/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/xboxone/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/xboxone/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/xboxone/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/xboxone/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/xboxone/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/xboxone/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/xboxone/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/xboxone/select.png</iconSelect>      </helpsystem>
+	  
+	   </view>
+
+   <view name="basic">
+
+      <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/xboxone/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/xboxone/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/xboxone/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/xboxone/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/xboxone/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/xboxone/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/xboxone/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/xboxone/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/xboxone/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/xboxone/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/xboxone/select.png</iconSelect>      </helpsystem>
+
+   	   </view>
+	   
+	   
+   <view name="video">
+
+      <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/xboxone/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/xboxone/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/xboxone/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/xboxone/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/xboxone/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/xboxone/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/xboxone/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/xboxone/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/xboxone/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/xboxone/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/xboxone/select.png</iconSelect>      </helpsystem>
+	  
+   	   </view>
+
+   	<view name="grid">
+	
+		 <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/xboxone/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/xboxone/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/xboxone/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/xboxone/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/xboxone/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/xboxone/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/xboxone/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/xboxone/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/xboxone/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/xboxone/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/xboxone/select.png</iconSelect>      </helpsystem>
+	  
+	   	   </view>
+		   <customView name="Carousel" inherits="grid" tinyScreen="false" displayName="${carouselViewName}">
+	
+		 <helpsystem name="help">
+			<iconUpDown>./../_assets/_helpsystem_icons/xboxone/updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/_helpsystem_icons/xboxone/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/_helpsystem_icons/xboxone/all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/_helpsystem_icons/xboxone/a.png</iconA>
+			<iconB>./../_assets/_helpsystem_icons/xboxone/b.png</iconB>
+			<iconX>./../_assets/_helpsystem_icons/xboxone/x.png</iconX>
+			<iconY>./../_assets/_helpsystem_icons/xboxone/y.png</iconY>
+			<iconL>./../_assets/_helpsystem_icons/xboxone/l.png</iconL>
+			<iconR>./../_assets/_helpsystem_icons/xboxone/r.png</iconR>
+			<iconStart>./../_assets/_helpsystem_icons/xboxone/start.png</iconStart>
+			<iconSelect>./../_assets/_helpsystem_icons/xboxone/select.png</iconSelect>      </helpsystem>
+	  
+	  
+	   	    </customView>
+	
+</theme>

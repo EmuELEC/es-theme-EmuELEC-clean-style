@@ -1,0 +1,32 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+	  <text name="release_date" extra="system">
+				<text>Release Date: November 21, 2004</text>
+			</text>
+
+			<text name="developer" extra="system">
+				<text>Developer: OPENBOR</text>
+			</text>
+
+			<text name="cpu" extra="system">
+				<text>CPU: LINUX,WINDOWS E OUTROS</text>
+			</text>
+
+			<text name="memory" extra="system">
+				<text></text>
+			</text>
+
+			<text name="graphics" extra="system">
+				<text></text>
+			</text>
+
+			<text name="sound" extra="system">
+				<text></text>
+			</text>
+   </view>
+</theme>
